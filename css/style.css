@@ -1,0 +1,236 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Sanchez", serif;
+    
+}
+
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0
+}
+.interface{
+    max-width: 1280px;
+    margin: 0 auto;
+    background-color: rgb(139, 148, 155);
+    width: 650px;
+    height:900px ;
+    border-radius: 50px;
+    transition: .2s;
+    
+    
+}
+.interface:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 8px #807e83;
+
+}
+
+.flex{
+    
+    width: 600px;
+    margin: 0 auto;
+}
+.Tabela{
+    display: flex;
+    justify-content: center;
+    border: 2px solid black;
+    border-radius: 30px;
+
+
+}
+.tabela-box{
+    width: 200px;
+    padding: 40px;
+    border-color: black;   
+}
+
+.site h1 {
+    text-align: center;
+    color: black;
+    font-size: 30px;
+    padding-top: 20px;
+}
+.site h2{
+    text-align: center;
+    color: black;
+    font-size: 25px;
+    margin: 10px 4%;
+}
+.site p{
+    margin: 10px 4%;
+    font-size: 20px;
+}
+.formulario{
+    align-items: center;
+    text-align: center;
+    
+    
+}
+  
+.formulario h3{
+    font-size: 20px;
+    margin: 10px;
+    margin-right: 700px;
+}
+.formulario input{
+    inline-size: none;
+    width: 90%;
+
+}
+.formulario input{
+    width: 100%;
+    background-color: black;
+    padding: 30px 10px;
+    border-radius: 15px;
+    color: #fff;
+    font: 30px;
+    cursor: pointer;
+    text-align: center;
+    width: 350px;
+    font-size: 20px;
+    margin: 0 auto;
+
+}
+
+ .botao button{
+    padding: 10px 4%;
+    font-size: 22px;
+    font-weight: 700;
+    background-color: #807e83;
+    border: 0;
+    border-radius: 40px;
+    cursor: pointer;
+    color: black;
+    margin-top: 40px;
+    border: 2px solid black;
+    width: 300px;
+   
+    
+}
+.botao button:hover{
+    box-shadow: 0 0 8px black;
+}
+
+.resultado{
+    margin-left: 130px;
+}
+.paragrafoResultado{
+    margin-left: 130px;
+    margin-top: 10px;
+    height: 60px;
+    width: 300px;
+    
+ }
+
+ .paragrafoResultado.p{
+    font-size: 20px;
+ }
+
+ .tabela-box.p1 a{
+    border: 1px solid black;
+ }
+
+ @media screen and (max-width: 800px){
+
+    .interface{
+        max-width: 1280px;
+        margin: 0 auto;
+        background-color: rgb(139, 148, 155);
+        width: 330px;
+        height:650px ;
+        border-radius: 50px;
+        transition: .2s;
+        
+        
+    }
+    .flex{
+    
+        width: 300px;
+        height: 540px;
+        margin: 0 auto;
+    }
+
+    .tabela-box{
+        width: 100px;
+        padding: 20px;
+        border-color: black;   
+    }
+
+    .site h1 {
+        text-align: center;
+        color: black;
+        font-size: 20px;
+        padding-top: 20px;
+    }
+
+    .site h2{
+        text-align: center;
+        color: black;
+        font-size: 18px;
+        
+    }
+
+    .site p{
+        margin: 10px 4%;
+        font-size: 10.8px;
+    }
+    .formulario h3{
+        font-size: 15px;
+        margin: 10px;
+        margin-right: 700px;
+    }
+
+    .formulario input{
+        width: 100%;
+        background-color: black;
+        padding: 20px 10px;
+        border-radius: 15px;
+        color: #fff;
+        
+        cursor: pointer;
+        text-align: center;
+        width: 250px;
+        font-size: 15px;
+        margin: 0 auto;
+    
+    }
+    .botao button{
+        padding: 9px 4%;
+        font-size: 20px;
+        font-weight: 700;
+        background-color: #807e83;
+        border: 0;
+        border-radius: 40px;
+        cursor: pointer;
+        color: black;
+        margin-top: 20px;
+        border: 2px solid black;
+        width: 200px;
+       
+        
+    }
+    .resultado{
+            margin: -10px;
+            font-size: 30px;
+    }
+    .paragrafoResultado{
+        margin-left: 130px;
+        margin-top: 10px;
+        height: 60px;
+        width: 300px;
+        
+     }
+    
+     .paragrafoResultado.p{
+        font-size: 0px;
+     }
+
+
+
+ }
+

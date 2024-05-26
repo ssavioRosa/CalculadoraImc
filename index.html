@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="js\index.js" defer></script>
+        <link rel="stylesheet" href="css\style.css">
+        <!-- BootsTrap icons -->
+        <script
+            src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+            integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+            crossorigin="anonymous"></script>
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+            integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+            crossorigin="anonymous"></script>
+        <!-- BootsTrap icons -->
+        <!-- Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Sanchez:ital@0;1&display=swap"
+            rel="stylesheet">
+        <!-- Google Fonts -->
+        <title>Calcule IMC</title>
+    </head>
+    <body>
+        <section class="site">
+            <div class="interface">
+                <h1 class="titulo">Tabela IMC</h1>
+                <div class="flex">
+                    <div class="Tabela">
+                        <div class="tabela-box">
+                            <h2>IMC</h2>
+                            <p class="a">Menor que 18,5</p>
+                            <p class="2">Entre 18,5 e 24,9</p>
+                            <p class="3">Entre 25 e 29,9</p>
+                            <p class="4">Entre 30 e 34,9</p>
+                            <p class="5">Entre 35 e 39,9</p>
+                            <p class="6">Maior que 40</p>
+                        </div>
+                        <div class="tabela-box">
+                            <h2>Resultado</h2>
+                            <p class="1">Abaixo do peso</p>
+                            <p class="2">Peso normal</p>
+                            <p class="3">Sobrepeso</p>
+                            <p class="4">Obesidade grau 1</p>
+                            <p class="5">Obesidade grau 2</p>
+                            <p class="6">Obesidade grau 3</p>
+                        </div>
+                    </div>
+                    <div class="formulario">
+                        <form action="/" id="form" method="post">
+
+                            <h3 class="altura">Altura</h3>
+                            <input type="text" name="altura" id="altura"
+                                placeholder="Insira sua altura (metros)">
+
+                            <h3 class="peso">Peso</h3>
+                            <input type="text" name="peso" id="peso"
+                                placeholder="Insira seu peso (kg)">
+                            <div class="botao" id="botaoCalcular">
+                                <button id="button" class="submit">Calcular</button>
+                            </div>
+                        </form>
+                        <h3 class="imc">IMC</h3>
+                        <div class="resultado" id="resultado"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </body>
+</html>
